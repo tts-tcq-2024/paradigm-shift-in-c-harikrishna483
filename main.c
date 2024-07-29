@@ -1,5 +1,5 @@
 #include <assert.h>
-#include "Battery_Monitor.h"
+#include "battery_monitor.h"
 
 int main() {
     assert(batteryIsOk(25, 70, 0.7));
